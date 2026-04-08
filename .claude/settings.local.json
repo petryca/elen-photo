@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sips -g pixelWidth -g pixelHeight media/family/*.jpeg media/concert/*.jpeg media/street/*.jpeg media/boudoir/*.jpeg)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/david/Code/elen-photo/media/weddings/*.jpg /Users/david/Code/elen-photo/media/portraits/*.jpg /Users/david/Code/elen-photo/media/family/*.jpg /Users/david/Code/elen-photo/media/travel/*.jpg)"
+    ]
+  }
+}
