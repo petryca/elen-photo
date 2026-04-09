@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed-variant": "#5c5b5b",
+                    "primary-fixed": "#e5e2e1",
+                    "surface-container-high": "#e4e9ea",
+                    "on-tertiary-fixed": "#2c4655",
+                    "surface-variant": "#dde4e5",
+                    "tertiary-fixed-dim": "#c2def0",
+                    "surface-container": "#ebeeef",
+                    "on-secondary-fixed-variant": "#5b5b5b",
+                    "primary-container": "#e5e2e1",
+                    "on-surface-variant": "#5a6061",
+                    "on-secondary-container": "#515252",
+                    "on-error": "#fff7f6",
+                    "tertiary-dim": "#3c5666",
+                    "error": "#9f403d",
+                    "on-primary-fixed": "#403f3f",
+                    "surface-container-highest": "#dde4e5",
+                    "tertiary-fixed": "#d0ecff",
+                    "on-surface": "#2d3435",
+                    "on-background": "#2d3435",
+                    "background": "#f9f9f9",
+                    "on-primary": "#faf7f6",
+                    "on-tertiary": "#f4faff",
+                    "on-secondary-fixed": "#3f3f3f",
+                    "secondary-container": "#e3e2e2",
+                    "surface": "#f9f9f9",
+                    "surface-dim": "#d4dbdd",
+                    "primary-dim": "#535252",
+                    "surface-container-low": "#f2f4f4",
+                    "inverse-on-surface": "#9c9d9d",
+                    "tertiary-container": "#d0ecff",
+                    "primary-fixed-dim": "#d6d4d3",
+                    "secondary-dim": "#535353",
+                    "tertiary": "#486272",
+                    "surface-tint": "#5f5e5e",
+                    "surface-bright": "#f9f9f9",
+                    "outline": "#757c7d",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary-fixed-dim": "#d5d4d4",
+                    "on-primary-container": "#525151",
+                    "error-dim": "#4e0309",
+                    "on-secondary": "#faf8f8",
+                    "on-tertiary-fixed-variant": "#486272",
+                    "on-tertiary-container": "#3e5868",
+                    "error-container": "#fe8983",
+                    "outline-variant": "#adb3b4",
+                    "primary": "#5f5e5e",
+                    "on-error-container": "#752121",
+                    "secondary-fixed": "#e3e2e2",
+                    "inverse-primary": "#ffffff",
+                    "secondary": "#5f5f5f",
+                    "inverse-surface": "#0c0f0f"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: minmax(18rem, auto);
+            gap: 1rem;
+        }
+        .editorial-shadow {
+            box-shadow: 0 20px 40px rgba(45, 52, 53, 0.06);
+        }
+        .glass-header {
+            background: rgba(249, 249, 249, 0.8);
+            backdrop-filter: blur(24px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+
+<main class="pt-32 pb-24 px-8 max-w-[1440px] mx-auto">
+<!-- Main Gallery Grid -->
+<div class="gallery-grid">
+<!-- First Cell: Stretches across 2 columns -->
+<div class="col-span-2 bg-surface-container-low p-12 flex flex-col justify-end overflow-hidden group">
+<div class="relative z-10">
+<span class="font-label text-[0.6875rem] uppercase tracking-[0.2em] text-on-surface-variant mb-4 block">Introduction</span>
+<h2 class="font-headline text-3xl font-bold tracking-tight mb-6">Structural Integrity &amp; <br/> Emotional Resonance</h2>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full text-sm font-medium transition-transform active:scale-95">Explore Archive</button>
+</div>
+<div class="absolute inset-0 opacity-10 grayscale group-hover:grayscale-0 transition-all duration-700">
+<img class="w-full h-full object-cover" data-alt="minimalist glass skyscraper reflecting clear blue sky with sharp geometric lines and metallic textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQLijcTVrWGMALlgvsowpupx6hAgUXrQa0heDgXB5n5aYIudGXkQeNsZd04oPN-I2IwtwC-vQufhYdr6t495N4Zrb-dwM4ajDrcgJzEcF9T3gwoGmFPfCuYEbOitB2Ned22JLeZ0x5xxG1JwlTn2vQ5GQjaNgFt5DEE-eEfDujhxZQbcDa0lpR1OqVKcKeGea2wBLfoHJ4dYhXets_4UpWLQbsumeRABd_nXy-d0GIeb-_3toh5Fq8sG99oLdQQ25gy5--NtuKk1fq"/>
+</div>
+</div>
+<!-- Pattern: 12 Landscape (2x1), 26 Portrait (Mixed 1x1 and 2x2) -->
+<!-- Total 38 slots following the intro -->
+<!-- Image 1: Landscape (2x1) -->
+<div class="col-span-2 relative overflow-hidden group">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105" data-alt="long exposure architectural shot of a brutalist concrete building against a stormy dramatic sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkln72lKKe3mpmXHbjBPufEnIgxTG_Naz1pxoYWVGIvQ6o3YyVpsYau-KQ49ywt47VMdGCrIwhNuwXZlWaEZGwdvyDYz9Rv7F_mhW-FV4npa6eqagQA9z5WMGcNcPJlgJuodwzBxg7r8ifU6RSQ34-pAIxWappbCuPAyw3Iah-7l9AQQbPNcD4rD8RKdxxGYy6LD-GLQBewKIygsUU0H66maTtzSwvgQcraDSxSho8MmodFd9OaWxJIkry7LD3nrn6j7k9_O0NNF9c"/>
+</div>
+<!-- Image 2 & 3: Small Portraits (1x1) -->
+<div class="col-span-1 bg-surface-container overflow-hidden group">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" data-alt="upward shot of white spiral staircase with perfect mathematical curves and soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrButoRIb9xHrserZ_tL4sNlejA1uTrTsJTkHJY0anHLM_M8KfllroD8dwXWXB6F5tKiCBrEZ18LFMBCVg89-3TsSCZZA1dXrtVmaOmB4PC7Ne-LLpNfGv_prZ_bbumMrTuBIMOSz81gcelY0ZHjFpFvsE0MbPPFKDkhIbc-pkuY9RCRhoagE7CFwcdtNKMA56Cy3_JfCMBzv6wYh-KRl4DnaBPDDqUU7_yZw1OvAR-Hlff701XPB6OO5FCvyNft-Qt9rrgIMA4JSR"/>
+</div>
+<div class="col-span-1 bg-surface-container overflow-hidden group">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" data-alt="abstract geometric shadows on a sand-colored wall in minimalist mediterranean architecture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4mgPLfmvjyMIeG5n2D3U4eHSS6wP0hXoeEQ6pv9fUQPbSeaOEyucX0zEhh9YncJCcP7T72Z7q78RgkVwklbopaGtFS89stva6yYRGbAKq2Eq9T3o76F5jnSkyLM7MBMjVP5tqqoEvR_iYBpWGy_tJlw1DVkqkKN_IM1mbl1BOo0TZVd0R2ytuuDyLzqCVgAUphTFJKv-bt4wFDE1AxsF8FdJbq_JKZYhFpBjvqWruIjrpzbtr2lC4ijNxLYwzGuI_4bytXA-77gwd"/>
+</div>
+<!-- Image 4: Large Portrait (2x2) -->
+<div class="col-span-2 row-span-2 bg-surface-container-highest overflow-hidden group relative">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-102" data-alt="majestic high-ceiling library with warm wooden panels and shafts of sunlight illuminating dust motes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRHLW1KqgqaJyYY4zjpDBku8OfH-lX0MX5pGgO8LVxJugtR8TGamiSVP_ZJcdk7Rz25a3MxTlFhfj7wlYCCj_saMZV5iNWOm2eVbgZoUzSn9ZVx9uRb0ecj80H07eqJ6O1KvWPU5pTzgZEsVWDayrXUt-3dOXtTm-COwgTdVkJBqj-7oA0XA-5MbEbZTlXbSzNX954HneJZ53boV3pId4bW_jCZJSax0-4nSvtzBKS6Zw1Pz5r_k17ZIXVqn6SDDNpXuBKh_iwn6XX"/>
+<div class="absolute bottom-6 left-6 text-white z-10 opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="font-label text-[0.6rem] uppercase tracking-widest">Exhibit 012</p>
+<p class="font-headline font-semibold text-lg">The Inner Sanctum</p>
+</div>
+</div>
+<!-- Image 5: Landscape (2x1) -->
+<div class="col-span-2 bg-surface-container overflow-hidden group">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" data-alt="modern glass house in a forest at twilight with warm interior lighting glowing against cool blue surroundings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkeaGfvRitAOMUYyj8CV789tUuKHrZBRK0MGc4GJT3o8DIiHQOwoZf6sG7KxVo-2xQLgAGbfmafx2xhFOdCoxyuYJjW-6zx1NQTAkflxaDvSTVudZMh9pSO-31pSnwMiw95gffG2ONH3UPk16LgflO_3k1bmwKpK4s69bh3EER_v9wSqp6-0Zgg9h8itnAFATpi0as7T-BBD7rGRxE4J7_g4svytj9Hcc28CF0CNFgE5KLEXsqYYFMWdParYeh2dVpRc6hRwb1hFrk"/>
+</div>
+<!-- Image 6-9: Small Portraits (1x1) -->
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105 transition-all" data-alt="detail shot of rusted iron texture on an industrial building facade with dramatic contrast" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVpXdWkb5NRRADVkcC0xEeWd7IER1ktvUXZSf9HMUz1MjX7yH51c5n8tioNhQm40dPqrGk2HdmnBTWAwkTOvgFzAnYM8PJdtexptGTiGYlUtaJXK2rNjase8srBXHSnG63htp84T5YHFExAAPNu6xI7pABWl2ynj-EgtYkJ4io4t3x7NJ59n4OcShKROvoF4CyF1xCjRq-Du0Q3g2O9kqyU46RjL19E9TEa0FppdM9_J5XnkJrlXcdeIW3pmamEBhJISCryGbFLn8h"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105 transition-all" data-alt="monochrome interior of a modern museum with clean white lines and a single solitary figure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdY8Up51TeB5kGFXMhnefNkl3Y_7kSYT051UoeqOlOsKEgM-mGKCF4RP6ZKpeDjGQrvHLyGNm01TOn2Nr_6aEzdmEooHLjYxt1L80FVaWzMuB-kR3n1hZ4c9Gzft7uiYTN6iwERDPmyjwOURlN6esmy2VXA25-yweCd654pd1FAiX_fmqpQcV1hLsuC5Fx_Qv_GFJi_Snk5HOGPQX3gbJIHA3KLpCXxUyPWSEquIn3Uu6L_W_OJGVIh3F1VyqG4FLKWJwjavbxBW7G"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105 transition-all" data-alt="close-up of a concrete texture with fine hairline cracks and subtle geological patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBify5OfyhL-00LfB7gD66FFc4KRYwf23BneEOJZanONYs4_PLyAWpP023oWMS5jPtTTvzjnP93FVNyG_rfNFv3W047G9UU7GhU2oah31hNezDKqoX9EZU6oZmfuj8jgpo-TRXF3l9IaKTr1YdbWWrChxB3HewbfygtBMKOad-Kalx91PkhDBZdnGSJUR98elOpUsbg8qQH876dO3CgdQeQ8RcrqAdoPZfa2-Wye-3giieBsd71omc3EC7tET9WhR3kIg0S-QsgTyhx"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105 transition-all" data-alt="minimalist workspace with a single designer chair and large window overlooking a gray cityscape" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBT02BOU4MeskkmazOJJLZ_ABB04ZUwop72d_5qdr8B2DK4k2M6m1wKuFs1eofjPKFDOtSRwGPAxvHbRzsNNZTwx1ypYN6z2FdBQBjRiEFK2MhKrpK6jk55B0JGEFyIpM5xYYlk4Uvp55OsEBpxL16zba1CweQv_4QbuTOux3vJ4r9lP7DO-HrPtt7Me5BqKzgUEO78vawagZ1WXEzgUrDHRdM4ZX4s9-9idayPLlYDHi9E1_q-f0Clx-Qm9H6KTMU03FQgty0TmyVZ"/></div>
+<!-- Image 10: Landscape (2x1) -->
+<div class="col-span-2 overflow-hidden group">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" data-alt="expansive open office space with symmetrical rows of desks and high industrial ceilings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4E0h0IGf7nF4IVrqgtk6yzoEk6pLad_fsSIgf3yb-EcueHs2Uy5yH84vz9xYLUsNBLfvDPZQqHbvRYxYMvghs35piIzK-M1DQVRhUZAvvBKn9F_MSiBUYyH4hPBF6vRogUXukL9ARlqiE71HRVaGvePV_nHQNNsgqNZUBsTbv7AD7AKqtNY-kd8wn4fw4gzRDX1INRfaV5ReTiQo-OUe4Uf2cVFTz7h0M5eqJ14TleycV_EarL4fIce_Wom4XUKstkb1413MxVE9M"/>
+</div>
+<!-- Image 11: Large Portrait (2x2) -->
+<div class="col-span-2 row-span-2 overflow-hidden group relative">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="stunning architectural composition of a modern skyscraper corner cutting into a deep purple twilight sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBC2tn-g4Y9VkVxgF6jsUbUgUr-Z8XsZtc24lS8hwbWHqM45iHqkoTAd673dRmWyvek-oYxyY013ySmoRfcdbzopWUnKruA96-bGKEH1vAKYfwLuCa5ueTcpsoF82hirZ-7l8mtsL1rgKqzMPun-ucHSITeA3ffxEr1iNfhhlAzvmrGLTZ1Hv9Lj3nJiOpGLyBGD1U07_Q9i3morTY9MxgneTUpN1WowCw1b6p24nxH_eHD-GHu40M15G95VySLSsy2-WYMi6W601G"/>
+</div>
+<!-- Image 12-15: Small Portraits (1x1) -->
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105" data-alt="abstract close up of glass panels reflecting distorted urban shapes in shades of teal and gray" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_ZQQSkacP5oTHkmVDBkwYa1hzHGOEyMz7xnDhkYQvJ5ju-UC7l_myU3dCaLi55juc1qd1w4XpeinkCk8r7Bq1BHgysZbte5TSMFjo0h-GORtpOx0peXn3BmZdk4_c1TYG7MNqIwFGlPKvS3UFtqZyZ3dyPRlSbmtz2XtobDjiyJ6DCdmE3gRjiPN9tSo2b3hzK2StB4UthDNpCwvTDvbsz_xdYD4paie1vBD0fp_DCnia6TuZfWpnmL8df09U-NN7CbeT5T8kAUg8"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105" data-alt="interior of a modern apartment with floor to ceiling windows and minimalist furniture at dawn" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBy6nHqOKhcjZTepJsbpWAypLZ-p3mtpdKp2oC-5SKQ0Ge3TOUZI7bJjZZMLmlHu4bARwQQOikHE0w08nSMPriaHmdOdctXQaIaQf-9JR1cBdX0nM3DuHYy0HMh0RVV_XtbGTS_BOflrenGKcmK6D4ogyTuMWp7qONxd21WQF8XR6uz_Ymvm8U7MFm58SdvM5_NBmZL4n_rVAOerGovwpRU9mp8XfsJUoE7pnbbWP2BVI2iMEcrQ47-w15eEO8RZ58iz2BGrYBPZRJm"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105" data-alt="brutalist architecture exterior with rhythmic concrete pillars and deep recessed windows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9sVoTL0ZvB4cyaU_Mu44KbS6dVz84lYxWpWM9eBQ1FlfSr2NDnYLTc5WNt4FwlisWTex4tHtYCUCiFs8wjEBj3qGs-rRwen3zsj3z4OfE7-hH567L0yQ7qKsnkQ7oAwRlwX8mjblpAx5kvZ8VsBKA6awpECxqzrkAF46E8Z1OV7Ivm2gMnnRSEGu7Ac4VD_5ozpD-BrAHv_DZGsiPng4unVy_CVVTulJVCnTnE9Oz8UP5RQxlnpIt-iclmYdpzah9xZwlkFMjrsWO"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105" data-alt="white geometric architectural abstract with intersecting planes and soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhvSy7Pnx804vetTU0Cp2hT31GImS6bFYjB401Uw_VpFgjNeLtvgkU5KFEaaHp8NCxkAkOBF-zyeBlkKl5AwBw21D9FoL_FUWQbH1Evf5tQPDJCkwbbf-4Op84vbd_2vG2pzC20sOTs8HNqbd00Avytd5PB1uy7fAK4YyFEYo7eE13PRl4Ym7pd0Gp8wiIoS6KwjBtJMtLmYqF43znt9C556FPho5m5_Q6FVeM3auKQoLuK5VZlUjAF_Q0120SjMw275b6TlMHb0pE"/></div>
+<!-- Image 16: Landscape (2x1) -->
+<div class="col-span-2 overflow-hidden group">
+<img class="w-full h-full object-cover hover:scale-102 transition-transform duration-500" data-alt="scenic view of a mist-covered forest valley with jagged mountain peaks in the distance under a pale sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAw5c1RA7JFXzzNjRbI_W-FsHPpMTl4G8kwuKADnpJTYCPSJ9Vrzi0Bf3KkHwE-eCIasFmbNzedOliSdLghrJyoHVfsT2MV-WFjcGEQhHa8CMJ79qoTCZwkPBpNlH8QukfE13Q2g9f31bCJB25v5eRp7gDJ6sy1f5UF8hT3sFVtiTTVCEvlJ6pci4o4p1uBw3FeV7SV5eUDtWJ_3HKXJJIeUXf7_BshsLgcwfoqF20NY6BVaLPfMa7vIEKaXxOrH-06kjuocQgbMoIx"/>
+</div>
+<!-- Image 17-20: Small Portraits (1x1) -->
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105" data-alt="monochrome shot of a singular person walking through a vast empty concrete plaza" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-KtLYVOH2moWuEFB2UfFY3ZOrEBvLp-Y9ebWIFkrvXbYxPp9ObGitMmckMfC03cwzNuiLPSsEu4NX83B2QfsQL95ne4FRQmAjbbkML8MbRUTpgUEK5n6DB5_SHBwrva885kfWLmjSweWVos0hkxJltNjljtS5NsN67Fpqe9DS0S3V7gdfpNpLUzuLraOD2c5dcFRZRK7TX6o9uFN4xYAS9jens4B1xC3Pwabttm-Whlw2ip-6lT-5g6GN_6x3LA-7BODX-Nq8rURD"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105" data-alt="starry night sky over sharp mountain ridges with deep blue and black tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-O8p46AR9gKemGMxwA2c5gMcZ3V3Cr49n6spF2-Twminv8qqxebQvFRapxJ-fJuvDeT8qZKA2jWd22UO784p37G-2VJB29wD7qxBb2Kaxr5xJT82ma6yvJaWtoKPbwO2m44WbCM0UI1lHyOB4yiLPq4BAOCqupCyKeIUarv9hLoNH0HlZvBjENb5f4Zo4SoDa4y9M2iimNTyFkq2aPhdXSir0fZ9VRBKHod2Nzaim9hD0MJu9nxCwhSWDCpGXfRRTayIyQr58Zll4"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105" data-alt="layered mountain silhouettes in varying shades of blue and gray during golden hour" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNASsxgJg0RZ6rB4DjmMxE4uZjUeE4AjOmI2R0IJm0hSHw4sjiTU7uCNh8wc6_VwEIk0pT4LwAjRMEnAKAQaCqwu-ab1jk8PxcGVQuAALFX_ycZIidczJQThRMkWfN7fVV3qNj1qDkgKj_JbctXk7HUc83esoAIGN8RfuVWhOF8hG04HztW4ITJVFbyJzncOZwB1K76XfAY7GOGHhNNMs0Gh0cN8dxcAxSHj7JUz5vKeAhkrrHCYEackY0BIjtipMbLcZXgc-zo_qQ"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover hover:scale-105" data-alt="close up of raindrops on a glass surface with blurred city lights in the background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjIzStVdiujCTQ-jelMcTgasITm1Hr5LZfAc7WAvBR0DA604gKx-rQk9sNcnQfO2UylyuYCHHjsrtYjMwahuvQ8wyh60MTj7UKgcLLRZDzTLXnOgEP8CfOiAJOjTou_KYHnZ2n859UckDzzA3r9-Lgk47IT45NY_4d45Jq6CSE7iI4nIOWP5fvXidstMykHdicOX5MFwA9UYeJdAAIMGQ2R-0iRZI9FshdINUZcWKE_8dWK_4P4xDAORp7LJvBeVqC67EsRYBnqJRV"/></div>
+<!-- Filling the remaining requirements conceptually to represent 38 images total -->
+<!-- Image 21: Landscape (2x1) -->
+<div class="col-span-2 overflow-hidden group">
+<img class="w-full h-full object-cover" data-alt="aerial tech visualization of global connections with bright blue light trails on a dark globe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA69yIHsjZ4gCt3aCRc5TSkIOPd1dPLdR-8SykcyP-NEU8UnY8mnBCviT3D48yWcYjpLhwcGAN39mXfs9aKvpgYIN1QT0-IICu2uOi4fSumtP2tKPZoG0-w3NEfL5iN4_TifkWpoCV42f5on-vL3GL7PyCS2noEC2nOlsZfqiqfqZZRQvbIa_UyX1bMVJHaMKpVf7_D9Qseuokpy_nJoZ2Ycsvpjbh7GPlhTytpg0kBMJaXALxh8kesfNarMbs4WOBOfrJU4LpNAoRI"/>
+</div>
+<!-- Image 22: Large Portrait (2x2) -->
+<div class="col-span-2 row-span-2 overflow-hidden group">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" data-alt="high fashion model in a black structured outfit walking against a white minimalist studio wall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiNiBZi7uBpY9wejTNzAaVdygmdBsYgF8eyxFIBdSrNv63fs_TmJqNwOHdaNeJejpewCepPXxLU5YQROrE1md6aNO_J_8g8A3BYu1Dh9LUNzHW6QuoFRLnx3bQz9XZJ8pKnn-q8SfUmjarE6H20HElZyaWo7MWDb3X5CwSU9IoCugLiXmIGqdG0dT6RPWghMV7bBRdM_C_LP-gr-qzxLp1C8HY6jThfz-_Z3OWgZT984LEJ9iW30UlZfzhCHIvIEXx6LtwyGDV17PH"/>
+</div>
+<!-- Image 23-26: Small Portraits (1x1) -->
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="architectural curve of a stadium roof against a clear deep blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZOlfPXNDYWFrKjFYINL1NO7BOr0wpcr7QFFA53uXU5Ufds3VgKgnnpez39E8O_Nn2hov8QdJkXD0w_P0kBBbqzSDr8_RVa_Uxtub2B9QmZMxcZaezbLG_Y5lFVQvX8pcldAEU-zP1EzYfh8rtgWW2P3sGY2nvG8LRVHSxadS0rcagIiy77ZKf9sZFpnUVDyNL1ZlwYcrW2mbSWMw2q7v62BCXFpoczpd5gd8gjU6RdoK72UzmVZIm-SISWbJnOvpxZ6Scjftlphzy"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="interior of a high-end clothing boutique with industrial lighting and marble surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRyjdSxYcNFlJo6J0mxeAB2Wv1nkQ1HV3nxw-tFNX4kmolaI4fj2JDTcnsFHF_pkYymZEdDdCg1Om6pwJkujZWxsdq5RD144rjCWpGMOFFmnwlr8BhfzPAi-7zTYzqP-xyqmPpWHViJhlfcLBrYTYY0-kR_tY85_UhI4szBAzM8BT35hd-8Op8jN3UdjhmY8AD1iO8h4vvO5p1ja2VQILOZoitI2hPedGGeFIzzhbhJhcIMzmN8JqDJLlKgQIsrJ8Glf8nSVkmVyvh"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="empty minimalist office hallway with symmetrical doorways and warm recessed lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAloZtvWZ1nOxFvRVqDAIDpwXSsV7crbjkdraEWs_K2T-XCVBi_sh5xZtVFlI1p8pQIDkA6ljWZSR80U-Jv4HBgDxisFSM5liNVXYSBcaItQC7d6OrDW23sS2vHh1jh70pn9g_2nNcqYrUQTHxki1XvMNIjkZRJmeyQEbKYdvAzSig-Woc-c5h3y1IYPJfRnsf2SjFNRUC3s8Ldeb86BE64LK_xSbnuTcZbxkWw2WZevvZW2cDz_nU7Cl613Zvv43BR7wB_E1rD5o--"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="detail of modern furniture design with clean wood grain and black leather textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxy_uP5YPPee7TXN-AMhYSkSGIXEsbJWx1mSufhvbzmMyxY8CBQcDedx3Mglxw-iRGrQMTtKEhzywLhmhgGRM-w-o6LQes6olSC5HmgPB7X4yPze1JWXEXe9jsT4OZx9OPP5JxawKULPXp_CtP02h2oxH6kMIAET5NzNOLbSB57_-8aGboIJMvsklOH5MSIq0Z9_lHeo0WJd_2nfCotVdNNihDtoJMcZLH2p7g7CU3wnZZyKclmAlpWH8X37sc5pmqfMY6isvzF4M9"/></div>
+<!-- Image 27: Landscape (2x1) -->
+<div class="col-span-2 overflow-hidden group">
+<img class="w-full h-full object-cover" data-alt="lush waterfall in a deep green forest with soft misty water flow and mossy rocks" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCV3jOjFXNqsTGuiMavXmM6cDZvjzrRlmjA7vDOFq8jErdRSwlM_XRg7xL8Hov_J-v9Ic2Cf8-Wv8dKh-3gFKnUSMoGXkitXU8xjRqh6nA_y8fQGh5UeJ_PpHT2j5oTB5ALWrIjMbrEQDJZ4CobO7TTQ39rr53B-2DIcZW2D4NED-FfPyXDH9LXt67kXV6-x3e5lsGUCclqypNhoqba0Sv16LBKTzBNyKnK6zHxI_uscusO7QxFmyP-nfv98opIxFyf1n_WSfP8hBWl"/>
+</div>
+<!-- Image 28-31: Small Portraits (1x1) -->
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="overhead shot of a minimalist wooden desk with a black laptop and simple ceramic cup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7MW0QsIG8cF5IZIzEVgDruKuI1yvn7hip9CBj-iWf_ugNbVAa0YHjux6DvQQZQIcs7wc-WMgHHvpXw85NTp4uyjvZV2R8-5kzDOEQ6tjgZ10v3nOWYp-po6uMMDuSAjWg9RNVrICK6Rv2vzwZinav_57Ubd8aB4g65k2TwfqWYeodDPXtx0Vd4Gu1jxWm1CA0C7-wTtAtWLN6wtIshEHqPHX6rc98NyLDLfcQPLsc4DE4BUuR568Qqads1spEaYRgYF1DS1a_d24r"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="abstract close up of colorful oil in water creating organic swirling nebula patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCKRBmEbySqY6eBuswhCKuIhHVIHH4AnjtF3veb9aNXE0KfjiUJ-NnkP_dxqKrCqUbUbXPEpLC8DkkKgo0_Q7A_qQtWV_XjafjZuSVPussjVKYtVjl37pec5Fs2RtwkRE7E9qmEamlYDNdWPK3PIQSxgmsituKMgEcB2b_ifRv9EcdzR64blTmXDREnTYaxHyqcspUXqEzav7v3yYqWRaJFICDBPtmnC16p-oWmLDuCPcfN7fjp-IOZItbk2oOv9qt1cx3nzOTB-zg"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="monochrome architectural shot of fire escape stairs creating a rhythmic repeating pattern" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEJGUFCpipzHVxop5NNbO2GEvMJXZ4ebYEmxiTBRXBr9NET4zzRnZOUBpb3VO7Ci_JxdjUxWwE8Tx1uIYLGTFzFbc8kzNuMvV-nggttB4j8KwYbuOoUpPyFpGk_IRzuddB_ySZgMrviBFwsN7W7y8zqXBVN7vRcNgzwKt8rjd_TFicAqUofl_cAlWzQJTw6zcc8-ZXdE2TTp5y-IEDEmGYkbTz1M_DffQTZRuMu3MWh468bZY3x1cifIeD2-1Z5GOtoPpMsFBF1GzV"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="clean minimal composition of a single green leaf against a pure white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa0ODow1elx74P1VMm8cXtY6d1cR3AsDDbt4soHgPFVpbFI1OS3aW9MuSvcetpFSNVXzQC7kK95FohfhnWo8wRPKAm583gqnR1bzLbUKRbS-oqpXA57GdXVgpbmETyZ4Ki0qqEUr6AIhufiy6aNzAgfEin9pIxDw9VFLm6ZdJoW39eYqXBmZGu7rgG9DsG8N8jJE0XKnPYmp-G626DvGZUUbiHvrxxo82EfVgv1_rj5QGn7y_kpF9ywEIx2Dpp5kvt7M-C0eVoCcdT"/></div>
+<!-- Image 32: Landscape (2x1) -->
+<div class="col-span-2 overflow-hidden group">
+<img class="w-full h-full object-cover" data-alt="golden sunset over a calm ocean with shimmering light on the water surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzuyjSFpvhmhxVDwtmIv85f1KGpfMVEp-_-7WAsohFHZ08NKdNemJo9ZipxbFLI49olnhozsPsv7TsFAx_kIAjAk5VfwgNmT3TQX4br9WGL2h7yZEVOpHgk4O426Lmb6V8LOtnrIb1Jdq1Sl50PmWbndppovp1iD9hDgHsSgC5pVx6VqPboIl9apSsloZcmvTqfOAvZIgkaMnJiTRbWycoZPi1raBKc6CwM9rOfkmEmybHHufX2bvS4nn_mpJgWOmOMfm9RdOCH8Am"/>
+</div>
+<!-- Image 33: Large Portrait (2x2) -->
+<div class="col-span-2 row-span-2 overflow-hidden group">
+<img class="w-full h-full object-cover" data-alt="vast green landscape with rolling hills under a wide sky with scattered white clouds" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBynQDv7U9SDWRTHI70YSFhcwr18YcUG0jdBmOoUS_WmkJKo-Z-HcUJwpAf4KqPntJE2L-OCsy7pxJy1VYTyrlbX7RrBiKayHCxfPgBiZzYVQpgK7MV55VYM7P6QeWTpGxSVYiZlgG5m4MNQ2FKOMgY5q7IB1onv4gl6nsEKIMe89mqEDymaeAzDdq3UuLRQsFLTAlcqGTsfqulnyCZVImud4MhUckmybhlYjX5tg7P2VocDywAAHEHNnc3yRIXBcTRyb2a-MsQ2oBE"/>
+</div>
+<!-- Image 34-37: Small Portraits (1x1) -->
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="tech server room with glowing blue led lights and dark industrial metal racks" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOL9R1yZ8YBVIN3d2BHZCFJziuOiLmjFJFYCGgQmTVTY2RT23oiPgFX_XTy4NF-bKBpm8c1APMzQf435I-qiWE6lhdxjnWqjOVcgBeqDzBU0NMkhkph5DP-avgHFuiP1oFNbXbKpuyXam349HXt8SFEIxRuHIZAJ3LfCZAY2v9lmGuxLIIiFDdRiBqPve81prs6nAqq9tM-aVrOkVnZG4YHHJj9X0YSYPhT9b83iQQZCkCDT8Vg0ySgKHmXvVG4mbcBkbH_f66nWpX"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="simple wooden light fixture against a white wall casting a soft warm glow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPtd0LhC_Ptfujmd2NGl5YrKTMkkZuDS-Xz1kqJTTPAz95hxiDiFmaWdOnluwqRPu5BchHkTGGLoehN08j2e3ltxM8T_vvlpVW07fE8uqoZzyAPk-tjfEouJTPQRNjp24NvkTsnPqaP9Sz-pFlAaFvcsNjo1Y2hQjRMAqluKN5Jh52h7NFjXGcCKgiOBV-epcuzjAwkZJQN67vJc7PTqXBQBfLWCDZUYSJ94apbeRPh2v3NVPrUrsBmRu15NioUI3GbvArcNHitXYq"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="exterior of a modern museum with bold geometric cutouts and a clear blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiXTY-ZFX3oYxCMAmg5PBB9OaqrEXZqZPuAJmL56LpKiaj0CZop6iVMYWQzrm_m4pRqpZYcK-1v2DhfvBovUP2FLSUaAGX6cj4qjSmicj5ysLM8VzqglUfkSs4vgpXODCPWUuZ1Fzwy6Qoq5AdHARPFMlPMT1iSj3JJxZud8MjUfT00ozGnS1aNhkOfxO_ZwkZRgUrB1flw5gd7eHwqNTW3ye6wgwPk-Fi9GpRABDfgfcGaKFkRS62Qt8k7GJoiJTW4CqxsLVpXClf"/></div>
+<div class="col-span-1 overflow-hidden group"><img class="w-full h-full object-cover" data-alt="monochrome landscape of a foggy lake with a single boat dock extending into the mist" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBg1myvN1OxIDRuxc46EoC-YhVNaZheiPXW2GSudlmyxjE_Wy6YhVUoFhGNwz4fEj6TPHlOu8e1uHBsEXTRNdg4BCJRZX4wl-iYdKXZGUWIP9-BpzDyLHqvRnvWDfLEhM_AMp8I9eksqCxomb6-U50OtpF0adB6nv4i7ocAFmFWWeNwiMZFPagPqMT2FzBku7D92kSV_SqMbBozs0ErcJkWDz97mS3G86qZSMkrxaWUIMhvphBxCXlTU0FqCOSl5fciRdM5AoI5L94m"/></div>
+<!-- Image 38: Landscape (2x1) -->
+<div class="col-span-2 overflow-hidden group">
+<img class="w-full h-full object-cover" data-alt="upward view of a tall building with white curved balconies against a clear sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6k3R1mIfKMuBCS9ITVb6NJYchm7Z7-TeGmZV5xnyrhdhe02Jk4mmV3h77o-f0hJbnuHgMpgyjRWMEtH9XHx4hWnsvWf8q_zJ0Tr8qbrQKOWgZs2XBW4u11O3kDavoR9AfHOXDWvLfBgfqed8wyj3zOUX__2fx73Yd9ia3dNWAJ5D2Q5xtVtfYIyHorz1dI5iSFA4r5IA7Lwt7yEEfTJjQCChJkJpx4t5kHIVC30rTGSdxOqqwHh2qLIu3zOelcyws4M1xHEQ16FrH"/>
+</div>
+</div>
+<!-- Editorial Callout -->
+<section class="mt-32 p-16 bg-surface-container-low text-center">
+<h2 class="font-headline text-4xl font-bold mb-8">CURATING THE FUTURE</h2>
+<p class="font-body text-on-surface-variant max-w-2xl mx-auto leading-relaxed mb-12">
+                The Digital Curator is more than a gallery; it is a statement on the permanence of digital art in an era of ephemeral content. Join our quarterly journal to receive deep dives into the lives of the artists we represent.
+            </p>
+<div class="inline-flex gap-4">
+<input class="bg-surface-container-lowest border-none px-6 py-3 rounded text-sm w-64 focus:ring-1 focus:ring-outline-variant/20" placeholder="Subscribe to Journal" type="email"/>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full text-sm font-medium hover:bg-primary-dim transition-colors">Join Now</button>
+</div>
+</section>
+</main>
+</body></html>
