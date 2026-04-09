@@ -5,7 +5,8 @@
       "Bash(sips -g pixelWidth -g pixelHeight /Users/david/Code/elen-photo/media/weddings/*.jpg /Users/david/Code/elen-photo/media/portraits/*.jpg /Users/david/Code/elen-photo/media/family/*.jpg /Users/david/Code/elen-photo/media/travel/*.jpg)",
       "Bash(python3 -)",
       "Bash(python3 -c ':*)",
-      "Bash(python3)"
+      "Bash(python3)",
+      "mcp__Claude_Preview__preview_start"
     ]
   }
 }

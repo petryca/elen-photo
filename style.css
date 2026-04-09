@@ -153,6 +153,35 @@ section>h2 {
     color: #fff;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: rgb(171, 179, 199);
+    letter-spacing: 0.15rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+footer .pipe {
+    margin: 0 0.8rem;
+}
+
+@media (max-width: 800px) {
+    footer {
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    footer .pipe {
+        display: block;
+        visibility: hidden;
+    }
+}
+
 .outline {
     outline: 1px solid red;
 }
