@@ -43,6 +43,10 @@ nav {
     gap: 2.5rem;
 }
 
+a {
+    color: inherit;
+}
+
 @media (max-width: 800px) {
     header {
         flex-direction: column;
