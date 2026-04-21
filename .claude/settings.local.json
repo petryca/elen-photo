@@ -6,7 +6,11 @@
       "Bash(python3 -)",
       "Bash(python3 -c ':*)",
       "Bash(python3)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(sips -g pixelWidth -g pixelHeight *.jpg)",
+      "Bash(awk '/\\\\/media\\\\/events/{f=$0} /pixelWidth:/{w=$2} /pixelHeight:/{h=$2; split\\(f,a,\"/\"\\); name=a[length\\(a\\)]; if\\(w>h\\) orient=\"L\"; else if\\(h>w\\) orient=\"P\"; else orient=\"S\"; printf \"%s %s %dx%d ratio=%.3f\\\\n\", name, orient, w, h, w/h}')",
+      "Bash(git ls-tree *)",
+      "Bash(git fsck *)"
     ]
   }
 }
