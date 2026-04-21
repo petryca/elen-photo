@@ -10,7 +10,8 @@
       "Bash(sips -g pixelWidth -g pixelHeight *.jpg)",
       "Bash(awk '/\\\\/media\\\\/events/{f=$0} /pixelWidth:/{w=$2} /pixelHeight:/{h=$2; split\\(f,a,\"/\"\\); name=a[length\\(a\\)]; if\\(w>h\\) orient=\"L\"; else if\\(h>w\\) orient=\"P\"; else orient=\"S\"; printf \"%s %s %dx%d ratio=%.3f\\\\n\", name, orient, w, h, w/h}')",
       "Bash(git ls-tree *)",
-      "Bash(git fsck *)"
+      "Bash(git fsck *)",
+      "Bash(sips --help)"
     ]
   }
 }
