@@ -128,6 +128,50 @@ section>h2 {
     padding: 1rem;
 }
 
+.grid .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: rgb(171, 179, 199);
+    line-height: 1.7;
+    background-color: rgb(54, 45, 43);
+    padding: 2rem;
+}
+
+.grid .text h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    line-height: 1.4;
+}
+
+.grid .text .tagline {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    opacity: 0.7;
+}
+
+.grid .text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.grid .text li {
+    position: relative;
+    padding-left: 1.4rem;
+}
+
+.grid .text li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+}
+
 .section-link a {
     display: flex;
     flex-direction: column;
@@ -185,7 +229,7 @@ footer .pipe {
     display: flex;
     justify-content: center;
     gap: 1.2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .social-links a {
