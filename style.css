@@ -163,11 +163,11 @@ section>h2 {
 
 .grid .text li {
     position: relative;
-    padding-left: 1.4rem;
+    padding-left: 2rem;
 }
 
 .grid .text li::before {
-    content: "—";
+    content: "❤️";
     position: absolute;
     left: 0;
 }
